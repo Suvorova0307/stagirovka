@@ -1,0 +1,261 @@
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+
+body {
+	font-family:  Dee Dee Light /*'Alegreya Sans', sans-serif*/;
+	margin: 0;
+}
+ 
+
+
+.main-header{
+	display: flex;
+	flex-direction: column;
+	height:100%;
+	min-height: 900px;
+	background:url(../img/alasdair-elmes-ULHxWq8reao-unsplash.jpg) no-repeat center;
+	background-size: cover;
+	position: relative;
+	color: #000000;
+}
+
+.top-header{
+	font-family: Dee Dee Light;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	height:100px;
+	background: #FFFFFF;
+	opacity: 0.9;
+	position: relative;
+	line-height: 20px;
+	font-size: 18px;
+
+}
+.logo img{
+	display: inline-block;
+	margin-bottom: -30px;
+	}
+
+
+.logo p{
+	color: #262626;
+	opacity: 0.5;
+	position: relative;
+	float: right;
+	padding-left: 30px;
+	
+}
+
+.main-menu{
+	
+	width: 40%;
+	margin-right: -60px;
+}
+.main-menu ul{
+	display: flex;
+	justify-content:flex-end;
+	list-style: none;
+
+}
+
+.menu-link{
+	margin-right: 30px;
+	color: #000;
+	opacity: 0.7;
+	text-decoration: none;
+}
+
+.menu-link:hover{
+	border-bottom: 1px solid  #F67660;
+}
+
+.account{
+	
+	display: flex;
+	justify-content: space-around;
+	width: 300px;
+}
+.btn {
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	color: #F67660;
+	padding: 10px 30px;
+	border-radius: 6px;
+	
+}
+
+.btn-signIn{
+	border: 1px solid #F67660; 
+
+}
+
+.btn-signUp{
+	background-color: rgba(253,173,138,0.3);
+}
+
+.promo-title{
+	margin-top: 15vh;
+	font-size: 50px;
+	line-height: 54px;
+	font-family:  Dee Dee Light;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+.tabs {width: 700px; padding: 0px; margin: 0 auto; }
+
+.tabs> input { 
+	display:none;
+	
+}
+.tabs>label {
+	cursor: pointer;
+    display:inline-block;
+    float:left;
+    margin-right: 5px;
+    padding: 10px 20px;
+    font-family: Dee Dee Light;
+	font-size: 14px;
+	line-height: 18px;
+    text-align: center;
+    color: #F67660;
+    border: 1px solid #E5E5E5;
+    border-bottom: 2px solid #E5E5E5;
+    background: #FEE6DC;
+    border-radius: 10px 10px 0 0;
+}
+
+.tabs>label:hover,
+.tabs>input:checked + label{
+  background: #F8F8F8;
+  color:#000;
+  font-weight: bold;
+  border-bottom:  2px solid #F8F8F8;
+}
+
+.tabs>label:hover{
+	border-bottom: 2px solid #E5E5E5;
+}
+
+.content{
+	clear:both;
+}
+
+
+.content>div{
+  display: none;
+  background:  #F8F8F8;
+  width:800px;
+  color: black;
+  border-radius: 0px 10px 10px 10px;
+  padding:10px 40px 40px 40px;
+
+}
+
+#tab_1:checked ~ .content .tab_1,
+#tab_2:checked ~ .content .tab_2,
+#tab_3:checked ~ .content .tab_3{
+		display: block;
+    }
+
+
+
+form input[type="text"],
+form select{
+	padding-left: 10px;
+	width: 250px;
+	height: 50px;
+	font-size: 18px;
+	border-radius: 4px;
+	margin-right: 10px;
+	font-family: Dee Dee Light; 
+	}
+
+.what_event select{
+	width: 510px;
+}
+
+.submit{
+	background-color: #F67660; 
+	color: #F8F8F8;
+	width: 190px;
+	height: 50px;
+	border-style: none;
+	border-radius: 4px;
+	font-size: 16px;
+	line-height: 20px;
+	
+	 
+}
+.btn-signIn:hover,.btn-signUp:hover,.submit:hover{
+	cursor: pointer;
+	background: #f24e30;
+	transition: .3s;
+	color: #F8F8F8;
+}
+
+
+
+
+@font-face {  
+	font-family: 'Dee Dee Light';
+	src: url('DeeDeeLight.eot');
+	src: url('DeeDeeLight.eot?#iefix') format('embedded-opentype'),
+	url('DeeDeeLight.woff') format('woff'),
+	url('DeeDeeLight.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.steps {
+	display: flex;
+	flex-direction: column;
+	height:100%;
+	min-height: 600px;
+	background-color: #F8F8F8;
+	
+}
+
+.steps-head{
+	font-size: 26px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.steps-items{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.steps-items>div{
+	width:350px;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+}
+.steps-items>img{
+	margin-bottom: 100px;
+}
+
+.professionals{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 500px;
+	
+}
+.links a{
+	justify-content: space-around;
+	text-decoration:  none;
+	font-size: 18px;
+	color:#000;
+	line-height: 20px;
+}
+.container{
+	margin:0 100px;
+}
