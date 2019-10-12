@@ -249,13 +249,13 @@ form select{
 	height: 500px;
 	
 }
-.links a{
-	justify-content: space-around;
-	text-decoration:  none;
-	font-size: 18px;
-	color:#000;
-	line-height: 20px;
-}
+
 .container{
 	margin:0 100px;
 }
+
+.lists{
+	display: flex;
+	flex-direction: row;
+	}
+
