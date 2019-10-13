@@ -68,7 +68,7 @@ body {
 	text-decoration: none;
 }
 
-.menu-link:hover{
+.menu-link:hover,.lists  a:hover{
 	border-bottom: 1px solid  #F67660;
 }
 
@@ -191,7 +191,7 @@ form select{
 	
 	 
 }
-.btn-signIn:hover,.btn-signUp:hover,.submit:hover{
+.btn-signIn:hover,.btn-signUp:hover,.submit:hover {
 	cursor: pointer;
 	background: #f24e30;
 	transition: .3s;
@@ -230,6 +230,7 @@ form select{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	widows: 100%;
 }
 .steps-items>div{
 	width:350px;
@@ -242,6 +243,10 @@ form select{
 	margin-bottom: 100px;
 }
 
+.container{
+	margin:0 100px;
+}
+
 .professionals{
 	display: flex;
 	flex-direction: column;
@@ -250,12 +255,38 @@ form select{
 	
 }
 
-.container{
-	margin:0 100px;
+.professionals-title{
+	margin-top:30px;
+	font-size: 24px;
 }
+
+
+.professionals-title a{
+	list-style:none;
+	text-decoration: none;
+	border-bottom: 2px dashed  #F67660;
+	color: #F67660;
+}
+
+
 
 .lists{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	width:70%;
 	}
 
+.lists  a{
+	font-family: Alegreya Sans;
+	font-size: 20px;
+	line-height: 45px;
+	color: #000;
+	text-decoration: none;
+		
+}
+
+.lists ul{
+
+	list-style: none;
+}
