@@ -10,6 +10,7 @@
   </head>
   <body>
   	 <header class="main-header">
+        
       <div class="top-header">
           
           <div class="logo">
@@ -49,7 +50,7 @@
    <div class="tab_1">
         <h2>Большая база исполнителей</h2>
         <form class="performer" action="" method="post">
-        	<select value="" id="" requared>
+        	<select value="" id="" required>
         		<option selected="selected" disabled="disabled" value="">Выберите
         		</option>
         		<option value="">DJ</option>
@@ -64,7 +65,7 @@
     <div class="tab_2">
         <h2>Создайте заявку и профессионалы найдут вас</h2>
         <form class="event" action="" method="post">
-            <select value="" id=""  requared>
+            <select value="" id=""  required>
         		<option selected="selected"  disabled="disabled" value="">Тип мероприятия?
         		</option>
         		<option value="">День рождения</option>
@@ -74,7 +75,7 @@
                 <option value="">Концерт</option>
         	 </select>
         	 <input type="text" name="tel"
-        	 pattern="[0-9]{11}" requared placeholder="Номер телефона">
+        	 pattern="[0-9]{11}" required placeholder="Номер телефона">
         	 <input  class="submit" type="submit" value="Создать заявку">
         </form>
     </div>
@@ -98,35 +99,37 @@
 
   </div>         
   </div>
+
 </header>
 
 <section class="steps"> 
-<div class="container">
+
     <div class="steps-head"><h2>Три простых шага до идеального события!</h2></div>
 		
         <div class="steps-items">
-           
+        
 			<div class="item1">
 				<img src="img/zayavka.png" alt="zayavka">
 				<h2>Создавайте заявку</h2>
 				<p>Опишите свой праздник, установите бюдет и добавьте примеры.</p>
 			</div>
-			<img src="img/Line.jpg">
+			<img src="img/Line.jpg" alt="line">
 			<div class="item2">
 
 				<img src="img/specialist.png" alt="specialist">
 				<h2>Выбирайте специалиста</h2>
 				<p>Принимайте заявки от специалистов и выбирайте подходящие условия.</p>
 			</div>
-			<img src="img/Line.jpg">
+			<img src="img/Line.jpg" alt="line">
 			<div class="item3">
 				<img src="img/connect.png" alt="connect">
 				<h2>Общайтесь напрямую</h2>
 				<p>В личном чате обсуждайте детали и обменивайтесь примерами.</p>
 			</div>
-		</div>
+		
 	</div>
 </section>
+
 <section class="professionals">
     
     <div class="professionals-title">
@@ -211,12 +214,32 @@
     </div> 
     <div class="more btn"><p>Больше заявок</p></div>
 </section>
-<footer class="footer">
+<footer>
     <div class="logo">
             <img src="img/logo.png" width="194" height="40" alt="logo">
-            <p>Краснодар</p>
     </div>
-
+<ul class="footer-list-1">
+    <li><a>О проекте</a></li>
+    <li><a>Платные сервисы</a></li>
+</ul>
+<ul class="footer-list-2">
+    <li><a>Конфиденциальность</a></li>
+    <li><a>Рекламодателю</a></li>
+</ul>
+<ul class="footer-list-3">
+    <li><a>Обратная связь</a></li>
+    <li><a>Служба поддержки</a></li>
+</ul>
+<div class="social-networks">
+    <a href="#"><img src="img/vk.png" alt="vk"></a>
+   <a href="#"><img src="img/Fb.png" alt="vk"></a>
+    <a href="#"><img src="img/Ok.png" alt="vk"></a>
+    <a href="#"><img src="img/Tw.png" alt="vk"></a>
+</div>
+<div class="developers">
+    <p>Дизайн – Picometer </p>
+    <p>Разработка и продвижение – ASTEQ</p>
+    <p>© Поиск профессионалов, 2019.</p>
+</div>
 </footer>
-<script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
