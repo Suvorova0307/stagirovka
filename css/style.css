@@ -21,8 +21,8 @@ body
     display: flex;
     flex-direction: column;
 
-    height: 100%;
-    min-height: 900px;
+    height: 100vh;
+    min-height: 600px;
 
     color: #000;
     background: url(../img/alasdair-elmes-ULHxWq8reao-unsplash.jpg) no-repeat center;
@@ -160,6 +160,7 @@ body
 {
     display: none;
 }
+
 .tabs > label
 {
     font-family: Dee Dee Light;
@@ -325,7 +326,7 @@ form select
 }
 .steps-items > img
 {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .container
